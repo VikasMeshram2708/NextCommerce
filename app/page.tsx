@@ -13,7 +13,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen">
-      <div className="container mx-auto my-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="container mx-auto my-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         <Suspense fallback={<h2>Loading...</h2>}>
           {products?.map((item) => (
             <ProductCard {...item} key={item?.id} />
