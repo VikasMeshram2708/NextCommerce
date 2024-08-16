@@ -1,6 +1,6 @@
 ## Introduction
 
-Next Commerce is a robust and scalable online eCommerce platform designed to offer a smooth and efficient shopping experience. Built with modern web technologies like Next.js and TypeScript, it ensures fast performance and a responsive design that adapts to any device.
+Next Commerce is a robust and scalable online eCommerce platform designed to provide a smooth and efficient shopping experience. Built with modern web technologies like Next.js and TypeScript, it delivers fast performance and a responsive design that adapts seamlessly to any device.
 
 ## Tech Stack
 
@@ -10,10 +10,12 @@ Next Commerce is a robust and scalable online eCommerce platform designed to off
 - **State Management:** Redux Toolkit
 - **Icons:** lucide-react
 
-
 ## Usage
 
-- ** git clone ``` git@github.com:VikasMeshram2708/NextCommerce.git ```
-- ** cd NextCommerce
-- ** npm i 
-- ** npm run dev
+1. **Clone the repository:**
+   ```
+   git clone https://github.com/VikasMeshram2708/NextCommerce.git
+   ```
+2. cd NextCommerce
+3. npm i 
+4. npm run dev
