@@ -24,7 +24,7 @@ export default function Header() {
       href: "/privacy",
       label: "Privacy Policy",
     },
-  ];
+  ] as const;
   return (
     <header className="p-4 sticky top-0 bg-background">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
