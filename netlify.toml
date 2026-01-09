@@ -2,5 +2,5 @@
   command = "pnpm --filter ecom-app run build"
   publish = "apps/ecom-app/.next"
 
-[plugins]
+[[plugins]]
   package = "@netlify/plugin-nextjs"
